@@ -1,0 +1,9 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'KiCAD Cheat Sheet.blg'
+[68] biber-darwin:340> INFO - === Sun May 14, 2023, 11:20:25
+[81] Biber.pm:418> INFO - Reading 'KiCAD Cheat Sheet.bcf'
+[166] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[180] bbl.pm:654> INFO - Writing 'KiCAD Cheat Sheet.bbl' with encoding 'UTF-8'
+[180] bbl.pm:757> INFO - Output to KiCAD Cheat Sheet.bbl
+[180] Biber.pm:130> WARN - The file 'KiCAD Cheat Sheet.bcf' does not contain any citations!
+[180] Biber.pm:132> INFO - WARNINGS: 1

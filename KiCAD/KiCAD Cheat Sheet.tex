@@ -8,11 +8,10 @@
 %	TITLE SECTION
 %----------------------------------------------------------------------------------------
 
-
 \title{	
 	\normalfont\normalsize
 	\vspace{20pt} % Whitespace
-	{\huge TITLE}\\ % The meh
+	{\huge KiCAD Cheat Sheet}\\ % The meh
 	\vspace{12pt} % Whitespace
 	\rule{\linewidth}{2pt}\\ % Thick bottom horizontal rule
 }
@@ -25,11 +24,124 @@
 
 \maketitle % Print the title
 
-\section{First Section}
+\section{KiCAD}
 
-\subsection{Subsection}
+KiCAD is designed to:
+\begin{itemize}
+	\item Create circuit schematics
+	\item Create PCBs
+\end{itemize}
 
-paragraph
+To ensure functioning PCBs are created, KiCAD offers the following:
+\begin{itemize}
+	\item PCB Calculator (Determine electrical component properties)
+	\item Gerber viewer (inspect manufacturing files)
+	\item 3D viewer
+	\item Integrated SPICE simulation
+\end{itemize}
+
+KiCAD has a manual workflow of first building the schematic then completing the PCB layout.\\
+
+4 Base programs:
+\begin{itemize}
+	\item Schematic editor
+	\item PCB editor
+	\item Symbol editor
+	\item Footprint editor
+\end{itemize}
+
+\textbf{First step is to create a project, which has connected files for schematic and PC.}
+
+\section{Tips}
+
+\begin{itemize}
+	\item R: rotate object
+	\item G: move object with wires attached
+	\item M: move object without wires
+	\item U: select multi traces connecting components
+\end{itemize}
+
+\section{Create a schematic}
+
+\begin{enumerate}
+	\item In page setting give a title and rev number.
+	\item Use under lined A for any additional labelling
+	\item Choose component values (E: properties)
+	\begin{itemize}
+		\item Comp val: Manufacturers part number
+	\end{itemize}
+	\item Choose Footprint for each item (E)
+	\item Run ERC
+	\begin{itemize}
+		\item Power symbols (power flag) are required to power output pins (VCC, GND)
+	\end{itemize}
+	\item Create BOM
+\end{enumerate}
+
+\section{Create a PCB}
+
+The appearance panel on the right is for controlling the layers.
+
+\begin{enumerate}
+	\item Setup page (page settings)
+	\item Setup board 
+	\begin{itemize}
+		\item Physical stackup (number of layers)
+		\item Constraints: Should match the fab house
+		\item Can have different constraints for different fab house
+	\end{itemize}
+	\item Update from schematic
+	\item Draw board outline (layer Edge cuts)
+	\item Place comps
+	\begin{itemize}
+		\item F: Flip to other side of board
+	\end{itemize}
+	\item Route tracks
+	\begin{itemize}
+		\item F.Cu : Front
+		\item B.Cu : Back
+		\item V: Insert via
+	\end{itemize}
+	\item Copper zones
+	\begin{itemize}
+		\item Draw zone (should be slightly bigger than board)
+		\item Fill all zones (has to be done manually after changes, use B)
+	\end{itemize}
+	\item Design rule check
+	\item 3D viewer
+	\item Fab output (Plot + Drill files)
+\end{enumerate}
+
+\section{Create custom symbol}
+
+\begin{enumerate}
+	\item Create new global symbol library (Symbol editor -> new library)
+	\item Create symbol in lib
+	\begin{itemize}
+		\item Add pins
+		\item Switch grid size to make changes easier
+	\end{itemize}
+	\item Set symbol properties (double click on page)
+	\begin{itemize}
+		\item Set keywords for easy find
+	\end{itemize}
+	\item Create footprint via footprint editor (of components physical object)
+	\begin{itemize}
+		\item Pin 1 is normally placed at 0,0
+	\end{itemize}
+	\item Add pads
+	\begin{itemize}
+		\item Add margin for diameter and pads
+	\end{itemize}
+	\item Add outline
+	\begin{itemize}
+		\item Fab layer
+		\item Silkscreen layer
+		\item Courtyard
+		\item \[ silkscreen\;margin = fab_width/2 + silk_width/2 \] 
+	\end{itemize}
+	\item Link footprint to symbol
+\end{enumerate}
 %----------------------------------------------------------------------------------------
 %	FIGURE EXAMPLE
 %----------------------------------------------------------------------------------------
