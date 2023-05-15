@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber KiCAD Cheat Sheet"] 1684059624 "KiCAD Cheat Sheet.bcf" "KiCAD Cheat Sheet.bbl" "KiCAD Cheat Sheet" 1684061766
-  "KiCAD Cheat Sheet.bcf" 1684061766 106792 6ec504d3c1cbb47d66d376d524624437 "pdflatex"
+["biber KiCAD Cheat Sheet"] 1684145242 "KiCAD Cheat Sheet.bcf" "KiCAD Cheat Sheet.bbl" "KiCAD Cheat Sheet" 1684145291
+  "KiCAD Cheat Sheet.bcf" 1684145290 106792 6ec504d3c1cbb47d66d376d524624437 "pdflatex"
   (generated)
   "KiCAD Cheat Sheet.bbl"
   "KiCAD Cheat Sheet.blg"
-["pdflatex"] 1684061765 "/Users/mohammadjabeen/Desktop/Notes/Electronics_Nts/KiCAD/KiCAD Cheat Sheet.tex" "KiCAD Cheat Sheet.pdf" "KiCAD Cheat Sheet" 1684061766
-  "/Users/mohammadjabeen/Desktop/Notes/Electronics_Nts/KiCAD/KiCAD Cheat Sheet.tex" 1684061765 8337 c24ea4392a116d3e2a9849ce26eb4187 ""
+["pdflatex"] 1684145290 "/Users/mohammadjabeen/Desktop/Notes/Electronics_Nts/KiCAD/KiCAD Cheat Sheet.tex" "KiCAD Cheat Sheet.pdf" "KiCAD Cheat Sheet" 1684145291
+  "/Users/mohammadjabeen/Desktop/Notes/Electronics_Nts/KiCAD/KiCAD Cheat Sheet.tex" 1684145288 9473 39448f39f1f43b44826b704d84366b57 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -133,10 +133,11 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1660065316 2826428 a8301d32520d3ecedcdd4485e83c119a ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "KiCAD Cheat Sheet.aux" 1684061766 756 50bb64775894f8121a7678b1f658a66c "pdflatex"
-  "KiCAD Cheat Sheet.bbl" 1684059625 466 ee04f40f768daeed26442158e95aba61 "biber KiCAD Cheat Sheet"
-  "KiCAD Cheat Sheet.run.xml" 1684061766 2501 ea8e1343bb1436bbf57bb761c25f0d58 "pdflatex"
-  "KiCAD Cheat Sheet.tex" 1684061765 8337 c24ea4392a116d3e2a9849ce26eb4187 ""
+  "Figures//power comp.png" 1684098135 22307 769a5346cbb371d8d89166407ae60c4b ""
+  "KiCAD Cheat Sheet.aux" 1684145290 1011 68261d13314382e846b626dadd6f39df "pdflatex"
+  "KiCAD Cheat Sheet.bbl" 1684145245 466 ee04f40f768daeed26442158e95aba61 "biber KiCAD Cheat Sheet"
+  "KiCAD Cheat Sheet.run.xml" 1684145290 2501 ea8e1343bb1436bbf57bb761c25f0d58 "pdflatex"
+  "KiCAD Cheat Sheet.tex" 1684145288 9473 39448f39f1f43b44826b704d84366b57 ""
   "structure.tex" 1671527390 3501 ab1bccf33b29eeab08ec0e0d19c48226 ""
   (generated)
   "KiCAD Cheat Sheet.aux"

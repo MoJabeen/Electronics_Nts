@@ -142,6 +142,35 @@ The appearance panel on the right is for controlling the layers.
 	\end{itemize}
 	\item Link footprint to symbol
 \end{enumerate}
+
+\section{SPICE Simulation}
+
+Simulation program with integrated circuit emphasis.\\
+
+Example statement: .[type] [step time] [fixed time] i.e. .tran 1u 1m
+
+\begin{itemize}
+	\item SPICE uses component sim models (.lib files) to describe the behavior of components.
+	\item Simple components (resistor and capacitor) models are auto assigned, others need to be manually assigned.
+	\item \textbf{KiCAD and sim model may use different pins}
+	\item Placing SPICE statements as text, allows them to be saved
+	\item Set compatibility to PSPICE and LTSPICE
+	\item Use labels to read probe sim values easier
+	\item Netlist shows connections in sim
+	\item \#branch: shows the current
+	\item Show cursor on signal list to see val over time
+\end{itemize}
+
+Use global power ref points with SPICE power components \ref{Power comp}, to simulate voltages. VSIN is for variable
+voltage waveform. 
+
+\begin{figure}[h] % [h] forces the figure to be output where it is defined in the code (it suppresses floating)
+	\centering
+	\includegraphics[width=0.5\columnwidth]{power comp.png} % Example image
+	\caption{Power comp ref}
+	\label{Power comp}
+\end{figure}
+
 %----------------------------------------------------------------------------------------
 %	FIGURE EXAMPLE
 %----------------------------------------------------------------------------------------

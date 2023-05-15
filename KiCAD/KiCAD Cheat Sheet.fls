@@ -795,6 +795,11 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-orns.t
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/public/fourier/futb8t.vf
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futb8r.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-alt-bold.tfm
+INPUT ./Figures//power comp.png
+INPUT ./Figures//power comp.png
+INPUT Figures//power comp.png
+INPUT ./Figures//power comp.png
+INPUT ./Figures//power comp.png
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/public/fourier/futmii.vf
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-mlit.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-ml.tfm
